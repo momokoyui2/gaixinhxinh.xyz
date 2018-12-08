@@ -1,4 +1,4 @@
-/--* Comments CSS *--/
+/*-- Comments CSS --*/
 #comments{background:#fff;position:relative;padding:10px;display:block;clear:both;color:#333}
 #comments h4{display:none}
 .comments h3.title{display:none}
@@ -72,7 +72,7 @@ iframe{border:none;overflow:hidden}
 .comments .continue{display:none;border-top:0}
 .comments .continue a{border:1px solid #fa0320;border-radius:3px;box-shadow:0 1px rgba(255,255,255,.3) inset;background:#e8233a;padding:5px 10px;font-size:13px;color:#fff!important;text-decoration:none!important}
 .comments .continue a:hover{background:#d70d25}
-/--* Responsive Comments *--/
+/*-- Responsive Comments --*/
 @media screen and (max-width:680px) {
 #comments .avatar-image-container{display:none!important}
 #comments .comment-block{margin-left:0px!important}
