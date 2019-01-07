@@ -1,0 +1,9 @@
+.searchLabel{background:#fff;padding:20px 0;box-shadow:0 7px 20px -6px rgba(202,202,202,.7);width:100%;margin:0 auto;text-align:center}
+.searchLabel h1{font-weight:500;font-size:24px;text-transform:uppercase;margin:0 0 15px}
+.searchLabel span{font-size:19px;font-weight:400}
+.searchLabel a{color:#333}
+.searchLabel a:hover{color:#8e0e00;-webkit-transition:all .25s ease-in-out;-moz-transition:all .25s ease-in-out;-ms-transition:all .25s ease-in-out;-o-transition:all .25s ease-in-out;transition:all .25s ease-in-out}
+.status-msg-wrap, .queryMessage, 
+.breadcrumbs {
+    display: none
+}
