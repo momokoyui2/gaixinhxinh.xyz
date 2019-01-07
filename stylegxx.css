@@ -1,0 +1,659 @@
+dl,ul,ul li{list-style:none}
+.center,img{position:relative}
+.top-bar-social ul&gt;li&gt;a,a,a:visited,abbr{text-decoration:none}
+.header-logo,.header-logo img{max-height:60px;margin:0}
+#main-menu ul&gt;li&gt;a,.social a:before,body,dl,ul{font-weight:400}
+.index-post .post-info&gt;h2,.post-snippet{-webkit-box-orient:vertical;text-overflow:ellipsis;-webkit-line-clamp:2}
+a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul,var{padding:0;border:0;outline:0;vertical-align:baseline;background:0 0;text-decoration:none}
+button,form,input,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:0}
+caption,th{text-align:center}
+img{border:none}
+.clearfix{clear:both}
+.section,.widget,.widget ul{margin:0;padding:0}
+#main-wrapper,#sidebar-wrapper{padding:0 15px;box-sizing:border-box;word-wrap:break-word}
+a{color:#39b5e4}
+a img{border:0}
+.separator a{clear:none!important;float:none!important;margin-left:0!important;margin-right:0!important}
+#navbar-iframe,.feed-links,.home-link,.widget-item-control,a.quickedit{display:none!important}
+.center{display:table;margin:0 auto}
+.widget&gt;h2,.widget&gt;h3{display:none}
+.post-image-wrap,.post-thumb,.top-bar-nav{display:block;position:relative}
+body{background:url() top left #f8f8f8;font-family:&#39;Alegreya&#39;,sans-serif;font-size:15px;color:#656565;word-wrap:break-word;margin:0;padding:0}
+#outer-wrapper{background-color:#ecf0f1;box-shadow:0 0 5px rgba(0,0,0,.1)}
+.row{max-width:1250px;margin:0 auto}
+#content-wrapper{margin:30px auto 0}
+#content-wrapper&gt;.container{margin:0 -15px}
+#main-wrapper,#top-bar{margin:0;overflow:hidden}
+.about-author .avatar-container,.post-image-link{background-color:rgba(155,155,155,.05);color:transparent!important}
+.post-thumb{width:100%;height:100%;object-fit:cover;z-index:1;transition:opacity .25s ease}
+.hot-item-inner:hover .post-image-link .post-thumb,.post-image-link:hover .post-thumb,.post-image-wrap:hover .post-image-link .post-thumb{opacity:.85}
+#top-bar{max-width:1256px; margin: 0 auto;height:38px;line-height:38px;background:#eb0069}
+#top-bar .container{margin:0 auto}
+.top-bar-nav{float:left}
+.top-bar-nav .widget&gt;.widget-title{display:none}
+.top-bar-nav ul li{float:left}
+.top-bar-nav ul li&gt;a{display:block;color:#fff;font-size:12px;font-weight:400;margin:0 10px 0 0;padding:0 5px;transition:color .17s}
+.top-bar-nav ul li:first-child&gt;a{padding:0 5px 0 0}
+.top-bar-nav ul&gt;li:hover&gt;a{color:#111}
+.top-bar-social{position:relative;float:right;display:block}
+.top-bar-social .widget&gt;.widget-title{display:none}
+.top-bar-social ul&gt;li{float:left;display:inline-block}
+.top-bar-social ul&gt;li&gt;a{display:block;color:#fff;font-size:14px;text-align:center;padding:0 5px;margin:0 0 0 10px;transition:color .17s}
+.top-bar-social ul&gt;li:last-child&gt;a{padding:0 0 0 5px}
+.top-bar-social ul&gt;li:hover&gt;a{color:#111}
+.social a:before{display:inline-block;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-style:normal}
+.social .facebook a:before{content:&quot;\f09a&quot;}
+.social .twitter a:before{content:&quot;\f099&quot;}
+.social .gplus a:before{content:&quot;\f0d5&quot;}
+.social .rss a:before{content:&quot;\f09e&quot;}
+.social .youtube a:before{content:&quot;\f16a&quot;}
+.social .skype a:before{content:&quot;\f17e&quot;}
+.social .stumbleupon a:before{content:&quot;\f1a4&quot;}
+.social .tumblr a:before{content:&quot;\f173&quot;}
+.social .vk a:before{content:&quot;\f189&quot;}
+.social .stack-overflow a:before{content:&quot;\f16c&quot;}
+.social .github a:before{content:&quot;\f09b&quot;}
+.social .linkedin a:before{content:&quot;\f0e1&quot;}
+.social .dribbble a:before{content:&quot;\f17d&quot;}
+.social .soundcloud a:before{content:&quot;\f1be&quot;}
+.social .behance a:before{content:&quot;\f1b4&quot;}
+.social .digg a:before{content:&quot;\f1a6&quot;}
+.social .instagram a:before{content:&quot;\f16d&quot;}
+.social .pinterest a:before{content:&quot;\f0d2&quot;}
+.social .twitch a:before{content:&quot;\f1e8&quot;}
+.social .delicious a:before{content:&quot;\f1a5&quot;}
+.social .codepen a:before{content:&quot;\f1cb&quot;}
+.social .reddit a:before{content:&quot;\f1a1&quot;}
+.social .whatsapp a:before{content:&quot;\f232&quot;}
+.social .snapchat a:before{content:&quot;\f2ac&quot;}
+.social .email a:before{content:&quot;\f0e0&quot;}
+.social .external-link a:before{content:&quot;\f35d&quot;}
+.social .comment-smile a:before{content:&quot;\f4b4&quot;}
+.social-color .facebook a{background-color:#3b5999}
+.social-color .twitter a{background-color:#00acee}
+.social-color .gplus a,.social-color .youtube a{background-color:#db4a39}
+.social-color .instagram a{background:linear-gradient(15deg,#ffb13d,#dd277b,#4d5ed4)}
+.social-color .pinterest a{background-color:#ca2127}
+.social-color .dribbble a{background-color:#ea4c89}
+.social-color .linkedin a{background-color:#0077b5}
+.social-color .tumblr a{background-color:#365069}
+.social-color .twitch a{background-color:#6441a5}
+.social-color .rss a{background-color:#ffc200}
+.social-color .skype a{background-color:#00aff0}
+.social-color .stumbleupon a{background-color:#eb4823}
+.social-color .vk a{background-color:#4a76a8}
+.social-color .stack-overflow a{background-color:#f48024}
+.social-color .github a{background-color:#24292e}
+.social-color .soundcloud a{background:linear-gradient(#ff7400,#ff3400)}
+.social-color .behance a{background-color:#191919}
+.social-color .digg a{background-color:#1b1a19}
+.social-color .delicious a{background-color:#0076e8}
+.social-color .codepen a{background-color:#000}
+.social-color .reddit a{background-color:#ff4500}
+.social-color .whatsapp a{background-color:#3fbb50}
+.social-color .snapchat a{background-color:#ffe700}
+.social-color .email a{background-color:#888}
+.social-color .external-link a{background-color:#111}
+.social-color .comment-smile a{background-color:#8bcf93}
+.social-text .facebook a:after{content:&quot;Facebook&quot;}
+.social-text .twitter a:after{content:&quot;Twitter&quot;}
+.social-text .gplus a:after{content:&quot;Google Plus&quot;}
+.social-text .rss a:after{content:&quot;Rss&quot;}
+.social-text .youtube a:after{content:&quot;YouTube&quot;}
+.social-text .skype a:after{content:&quot;Skype&quot;}
+.social-text .stumbleupon a:after{content:&quot;StumbleUpon&quot;}
+.social-text .tumblr a:after{content:&quot;Tumblr&quot;}
+.social-text .vk a:after{content:&quot;VKontakte&quot;}
+.social-text .stack-overflow a:after{content:&quot;Stack Overflow&quot;}
+.social-text .github a:after{content:&quot;Github&quot;}
+.social-text .linkedin a:after{content:&quot;LinkedIn&quot;}
+.social-text .dribbble a:after{content:&quot;Dribbble&quot;}
+.social-text .soundcloud a:after{content:&quot;SoundCloud&quot;}
+.social-text .behance a:after{content:&quot;Behance&quot;}
+.social-text .digg a:after{content:&quot;Digg&quot;}
+.social-text .instagram a:after{content:&quot;Instagram&quot;}
+.social-text .pinterest a:after{content:&quot;Pinterest&quot;}
+.social-text .twitch a:after{content:&quot;Twitch&quot;}
+.social-text .delicious a:after{content:&quot;Delicious&quot;}
+.social-text .codepen a:after{content:&quot;CodePen&quot;}
+.social-text .flipboard a:after{content:&quot;Flipboard&quot;}
+.social-text .reddit a:after{content:&quot;Reddit&quot;}
+.social-text .whatsapp a:after{content:&quot;Whatsapp&quot;}
+.social-text .messenger a:after{content:&quot;Messenger&quot;}
+.social-text .snapchat a:after{content:&quot;Snapchat&quot;}
+.social-text .email a:after{content:&quot;Email&quot;}
+.social-text .external-link a:after{content:&quot;WebSite&quot;}
+.social-text .comment-smile a:after{content:&quot;Disqus&quot;}
+#header-wrap{position:relative;margin:0;box-shadow:0 2px 15px rgba(0,0,0,.1)}
+.header-header{background:rgba(255,255,255,.61);width:100%;position:relative;overflow:hidden;padding:25px 0 20px}
+.header-header .container{position:relative;margin:0 auto;padding:0}
+.header-logo{position:relative;float:left;width:auto;max-width:200px;padding:15px 0}
+.header-ads .widget,.header-logo img,.item-post .post-body img,.widget iframe,.widget img{max-width:100%;height:auto}
+.header-logo .header-image-wrapper{display:block}
+#main-menu .widget,#main-menu .widget&gt;.widget-title,.header-ads .widget&gt;.widget-title{display:none}
+.header-logo h1{color:#111;font-size:36px;line-height:60px;margin:0}
+.header-logo p{font-size:12px;margin:5px 0 0}
+.header-ads{position:relative;float:right}
+.header-ads .widget .widget-content{width:728px;max-width:100%;max-height:90px;line-height:1}
+.header-menu{border-top:3px solid #111;border-right:3px solid #111;border-left:3px solid #111;background-color:#eb0069;position:relative; max-width:1256px; margin: 0 auto;z-index:10;font-size:13px}
+.header-menu .container{position:relative;margin:0 auto;padding:0}
+#main-menu .show-menu{display:block}
+#main-menu{position:relative;height:46px;z-index:15}
+#main-menu ul&gt;li{float:left;position:relative;margin:0;padding:0;transition:background .17s}
+#main-menu ul&gt;li&gt;a,.post-body a{transition:color .17s ease}
+#main-menu #main-menu-nav&gt;li.li-home,#main-menu #main-menu-nav&gt;li:hover{background-color:#111}
+#main-menu ul&gt;li&gt;a{position:relative;color:#fff;font-size:13px;line-height:46px;display:inline-block;margin:0;padding:0 15px}
+#main-menu #main-menu-nav&gt;li&gt;a{text-transform:uppercase;font-weight:700}
+#main-menu #main-menu-nav&gt;li:first-child&gt;a{padding-left:0}
+#main-menu #main-menu-nav&gt;li:first-child:hover{background:0 0}
+#main-menu ul&gt;li:hover&gt;a,#main-menu ul&gt;li&gt;ul&gt;li:hover&gt;a{color:#fff}
+#main-menu ul&gt;li&gt;ul{position:absolute;float:left;left:0;top:46px;width:180px;background-color:#111;z-index:99999;margin-top:0;padding:0;border-top:2px solid #eb0069;visibility:hidden;opacity:0}
+#main-menu ul&gt;li&gt;ul&gt;li&gt;ul{position:absolute;float:left;top:0;left:100%;margin:-2px 0 0}
+#main-menu ul&gt;li&gt;ul&gt;li{display:block;float:none;position:relative}
+#main-menu ul&gt;li&gt;ul&gt;li:hover{background-color:#eb0069}
+#main-menu ul&gt;li&gt;ul&gt;li a{display:block;height:36px;font-size:13px;color:#fff;line-height:36px;box-sizing:border-box;margin:0;padding:0 15px;border:0;border-bottom:1px solid rgba(255,255,255,.05);transition:all .17s ease}
+#main-menu ul&gt;li.has-sub&gt;a:after{content:&#39;\f107&#39;;float:right;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-size:12px;font-weight:400;margin:0 0 0 5px}
+#main-menu ul&gt;li&gt;ul&gt;li.has-sub&gt;a:after{content:&#39;\f105&#39;;float:right;margin:0}
+#main-menu .mega-menu{position:static!important}
+#main-menu .mega-menu&gt;ul{width:100%;box-sizing:border-box;padding:20px 10px}
+#main-menu .mega-menu&gt;ul.mega-menu-inner{overflow:hidden}
+#main-menu ul&gt;li:hover&gt;ul,#main-menu ul&gt;li&gt;ul&gt;li:hover&gt;ul{visibility:visible;opacity:1}
+#main-menu ul ul{transition:all .25s ease}
+.mega-menu-inner .mega-item{float:left;width:20%;box-sizing:border-box;padding:0 10px}
+.mega-menu-inner .mega-content{position:relative;width:100%;overflow:hidden;padding:0}
+.mega-content .post-image-wrap{width:100%;height:120px}
+.mega-content .post-image-link{width:100%;height:100%;z-index:1;display:block;position:relative;overflow:hidden;padding:0}
+.mega-content .post-title{position:relative;font-size:13px;font-weight:700;line-height:1.5em;margin:7px 0 5px;padding:0}
+.mega-content .post-title a{display:block;color:#fff;transition:color .17s}
+.mega-content .post-title a:hover{color:#39b5e4}
+.mega-content .post-meta{font-size:11px}
+.no-posts{float:left;width:100%;height:100px;line-height:100px;text-align:center}
+#nav-search,.hide-search,.show-search{position:absolute;height:46px;padding:0;top:0}
+.mega-menu .no-posts{line-height:60px;color:#111}
+.hide-search,.show-search{right:0;display:block;width:46px;background-color:#111;line-height:46px;z-index:20;color:#fff;font-size:15px;text-align:center;cursor:pointer;transition:background .17s ease}
+#mobile-logo .widget&gt;.widget-title&gt;h3,#nav-search{display:none}
+.show-search:before{content:&quot;\f002&quot;;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-weight:400}
+.hide-search:before{content:&quot;\f00d&quot;;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-weight:400}
+#nav-search .search-input,.mobile-search-form .mobile-search-input{font-family:inherit;border:0;font-weight:400;color:#000;box-sizing:border-box}
+#nav-search{left:0;width:100%;z-index:99;background-color:#FFF;box-sizing:border-box}
+#nav-search .search-form,#nav-search .search-input{width:100%;height:46px;background-color:rgba(0,0,0,0)}
+#nav-search .search-form{line-height:46px;overflow:hidden;padding:0}
+#nav-search .search-input{margin:0;padding:0 46px 0 15px;font-size:13px;outline:0}
+.mobile-header,.mobile-header .logo-content{position:relative;float:left;height:50px;width:100%}
+#nav-search .search-input::placeholder{color:#000}
+.mobile-header{display:none;background-color:#111;z-index:1010}
+.mobile-header .logo-content{display:block;text-align:center;z-index:2}
+.mobile-header .logo-content&gt;a{height:30px;display:inline-block;padding:10px 0}
+.mobile-header .logo-content&gt;a&gt;img{height:30px}
+.mobile-header .logo-content&gt;h3{font-size:20px;height:30px;line-height:30px;margin:10px 0 0}
+.mobile-header .logo-content&gt;h3&gt;a{color:#fff}
+.mobile-search-form{position:absolute;display:none;z-index:4;background-color:#111;width:100%;height:50px;left:0;top:0}
+.mobile-search-form .mobile-search-input{background-color:#111;display:block;width:calc(100% - 20px);height:50px;font-size:13px;padding:0 20px}
+.overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:990;background:rgba(255,255,255,.8)}
+.hide-mobile-search,.show-mobile-search,.slide-menu-toggle{position:absolute;line-height:50px;height:50px;width:50px;top:0;left:0;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;color:#fff;font-size:18px;font-weight:400;text-align:center;cursor:pointer;z-index:4;padding:0}
+.mobile-menu,.mobile-menu ul li{position:relative;float:left;width:100%}
+.slide-menu-toggle{border-right:1px solid rgba(255,255,255,.08)}
+.hide-mobile-search,.show-mobile-search{border-left:1px solid rgba(255,255,255,.08);left:auto;right:0}
+.slide-menu-toggle:before{content:&quot;\f0c9&quot;}
+.nav-active .slide-menu-toggle:before{content:&quot;\f00d&quot;}
+.show-mobile-search:before{content:&quot;\f002&quot;}
+.hide-mobile-search:before{content:&quot;\f00d&quot;}
+.mobile-menu{background-color:#111;box-sizing:border-box;padding:20px;border-top:1px solid rgba(255,255,255,.08);visibility:hidden;opacity:0;transform-origin:0 0;transform:scaleY(0);transition:all .17s ease}
+.nav-active .mobile-menu{visibility:visible;opacity:1;transform:scaleY(1)}
+.mobile-menu&gt;ul{margin:0}
+.mobile-menu .m-sub{display:none;padding:0}
+.mobile-menu ul li{display:block;overflow:hidden;font-size:14px;line-height:38px;margin:0;padding:0;border-top:1px solid rgba(255,255,255,.01)}
+.title-wrap&gt;h3,a.view-all{height:32px;line-height:32px}
+.mobile-menu&gt;ul&gt;li{font-weight:400}
+.mobile-menu&gt;ul li ul{overflow:hidden}
+.mobile-menu&gt;ul&gt;li:first-child{border-top:0}
+.mobile-menu ul li a{color:#fff;padding:0;display:block;transition:all .17s ease}
+.mobile-menu #main-menu-nav&gt;li&gt;a{text-transform:uppercase;font-weight:700;font-size:13px}
+.mobile-menu ul li.has-sub .submenu-toggle{position:absolute;top:0;right:0;color:#fff;cursor:pointer}
+.mobile-menu ul li.has-sub .submenu-toggle:after{content:&#39;\f105&#39;;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-weight:400;float:right;width:34px;font-size:16px;text-align:center;transition:all .17s ease}
+.mobile-menu ul li.has-sub.show&gt;.submenu-toggle:after{transform:rotate(90deg)}
+.mobile-menu&gt;ul&gt;li&gt;ul&gt;li a{font-size:13px}
+.mobile-menu&gt;ul&gt;li&gt;ul&gt;li&gt;a{color:#fff;opacity:.7;padding:0 0 0 15px}
+.mobile-menu&gt;ul&gt;li&gt;ul&gt;li&gt;ul&gt;li&gt;a{color:#fff;opacity:.7;padding:0 0 0 30px}
+.mobile-menu ul&gt;li&gt;.submenu-toggle:hover{color:#f24a4a}
+.post-meta{display:block;overflow:hidden;color:#555;font-size:12px;font-weight:400;padding:0 1px}
+.post-meta .post-author,.post-meta .post-date{float:left;margin:0 10px 0 0}
+.post-meta .post-date{text-transform:capitalize}
+.post-nav li span,.post-tag,.title-wrap&gt;h3{text-transform:uppercase}
+.post-meta a{color:#555;transition:color .17s}
+.post-meta a:hover{color:#39b5e4}
+.post-meta span:before{font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-weight:400;margin:0 3px 0 0}
+.post-meta .post-author:before{content:&#39;\f2c0&#39;}
+.post-meta .post-date:before{content:&#39;\f017&#39;}
+.queryMessage{overflow:hidden;background-color:#f2f2f2;color:#111;font-size:13px;font-weight:400;padding:8px 10px;margin:0 0 25px}
+.queryMessage .query-info{margin:0 5px}
+.queryMessage .search-label,.queryMessage .search-query{font-weight:700;text-transform:uppercase}
+.queryMessage .search-label:before,.queryMessage .search-query:before{content:&quot;\201c&quot;}
+.queryMessage .search-label:after,.queryMessage .search-query:after{content:&quot;\201d&quot;}
+.queryMessage a.show-more{float:right;color:#39b5e4;text-decoration:underline;transition:opacity .17s}
+.title-wrap,.title-wrap&gt;h3{float:none;position:relative}
+.queryMessage a.show-more:hover{opacity:.8}
+.queryEmpty{font-size:13px;font-weight:400;padding:10px 0;margin:0 0 25px;text-align:center}
+.title-wrap{width:100%;display:block;margin:0 0 20px}
+.title-wrap&gt;h3{border-bottom:2px solid #f24a4a;font-size:14px;color:#333;padding:0;margin:0}
+a.view-all{float:right;background-color:rgba(255,255,255,.03);font-size:13px;color:#fff;padding:0 15px;transition:background .17s ease}
+.post-tag,a.view-all:hover{background-color:#f24a4a}
+a.view-all:after{content:&#39;\f105&#39;;float:right;font-weight:400;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;margin:0 0 0 3px}
+.custom-widget li{overflow:hidden;margin:20px 0 0}
+.custom-widget li:first-child{margin:0}
+.custom-widget .post-image-link{position:relative;width:80px;height:119px;float:left;overflow:hidden;display:block;vertical-align:middle;margin:0 12px 0 0}
+.custom-widget .post-title{overflow:hidden;font-size:13px;font-weight:700;line-height:1.5em;margin:0 0 5px;padding:0}
+.custom-widget .post-title a{display:block;color:#111;transition:color .17s}
+.custom-widget .post-title a:hover{color:#39b5e4}
+.custom-widget .post-meta{font-size:11px}
+.blog-post{display:block;overflow:hidden;word-wrap:break-word}
+.index-post-wrap{display:flex;flex-wrap:wrap;margin:0 -15px}
+.index-post{width:50%;width:calc(100% / 4);flex-direction:column;vertical-align:top;box-sizing:border-box;padding:0 10px;margin:0 0 30px;overflow:visible}
+.index-post .post-image-wrap{float:left;width:100%;height:415px;margin:0 0 15px}
+.index-post .post-image-wrap .post-image-link{width:100%;height:100%;position:relative;display:block;z-index:1;overflow:hidden}
+.post-tag{position:absolute;top:15px;left:15px;height:18px;z-index:5;color:#fff;font-size:10px;line-height:18px;font-weight:700;padding:0 6px}
+.index-post .post-info,.item-post{background:#fff;padding:20px;box-shadow:0 2px 3px rgba(0,0,0,.06),0 2px 3px rgba(0,0,0,.1);box-sizing:border-box}
+.index-post .post-info{display:block;text-align:left}
+.item-post{border-top:2px solid #f24a4a}
+.index-post .post-info&gt;h2{clear:both;font-size:19px;font-weight:700;line-height:1.5em;text-decoration:none;margin:0 0 10px;display:-webkit-box;overflow:hidden;min-height:56px;text-align:center}
+.date-header,.post-snippet{display:none}
+.index-post .post-info&gt;h2&gt;a{color:#111;transition:color .17s}
+.index-post .post-info&gt;h2&gt;a:hover{color:#39b5e4}
+.date-header{display:block;margin:0!important;padding:0}
+.post-timestamp{margin-left:0}
+.post-snippet{position:relative;display:-webkit-box;max-height:40px;font-size:12px;line-height:1.6em;margin:10px 0 0}
+#breadcrumb{display:none}
+.item-post h1.post-title{color:#111;font-size:27px;text-align:center;line-height:1.5em;font-weight:700;position:relative;display:block;margin:0 0 15px;padding:0}
+.post-labels a,.post-labels span,.share-links li a{font-weight:500;font-size:13px;border-radius: 30px;transition:all .17s ease}
+.static_page .item-post h1.post-title{padding:0 0 10px;margin:0;border-bottom:1px solid #eaeaea}
+.item-post .post-body{width:100%;line-height:1.5em;overflow:hidden;padding:20px 0 0}
+.static_page .item-post .post-body{padding:20px 0}
+.item-post .post-outer{padding:0}
+.item-post .post-meta{font-size:13px;padding:0 1px 10px;border-bottom:1px solid #eaeaea}
+.main .widget{margin:0}
+.main .Blog{border-bottom-width:0}
+.main .widget&gt;.widget-title{position:relative;float:none;width:100%;height:28px;display:block;margin:0 0 20px;padding-top: 20px;border-bottom:2px solid rgba(255,255,255,.05)}
+.main .widget&gt;.widget-title&gt;h3{position:relative;float:left;height:30px;font-size:20px;color:#111;margin:0}
+.main .widget&gt;.widget-title&gt;h3:after{content:&#39;&#39;;position:absolute;left:0;bottom:0;height:2px;width:100%;background-color:#f24a4a;margin:0}
+.post-footer{position:relative;float:left;width:100%;margin:20px 0 0}
+.inline-ad{position:relative;display:block;max-height:60px;margin:0 0 30px}
+.inline-ad&gt;ins{display:block!important;margin:0 auto!important}
+.item .inline-ad{float:left;width:100%;margin:20px 0 0}
+.item-post-wrap&gt;.inline-ad{margin:0 0 20px}
+.post-labels{overflow:hidden;height:auto;position:relative;padding:0;margin:0 0 25px}
+.post-labels a,.post-labels span{float:left;color:#555;margin:0 12px 0 0}
+.post-labels span{color:#111}
+.post-labels a:hover{color:#f24a4a}
+.post-share{position:relative;overflow:hidden;line-height:0;margin:0 0 30px}
+.share-links li a,.share-links li a:before{text-align:center;line-height:32px;float:left}
+ul.share-links{position:relative}
+.share-links li{width:32px;float:left;box-sizing:border-box;margin:0 5px 0 0}
+.share-links li.facebook,.share-links li.gplus,.share-links li.twitter,.share-links li.pstext {width:14%}
+.share-links li a{display:inline-block;cursor:pointer;width:100%;height:32px;color:#fff;box-sizing:border-box;opacity:1;margin:0;padding:0}
+.share-links li a:hover,.social-counter li a:hover{opacity:.8}
+.is-mobile li.whatsapp-desktop,.share-links li.whatsapp-mobile{display:none}
+.is-mobile li.whatsapp-mobile{display:inline-block}
+.share-links li a:before{display:block;width:32px;background-color:rgba(255,255,255,.07);font-size:15px}
+ul.post-nav{position:relative;overflow:hidden;display:block;margin:0 0 30px}
+.post-nav li{display:inline-block;width:50%}
+.post-nav .post-prev{float:left;text-align:left;box-sizing:border-box;padding:0 10px}
+.post-nav .post-next{float:right;text-align:right;box-sizing:border-box;padding:0 10px}
+.post-nav li a{color:#111;line-height:1.4em;display:block;overflow:hidden;transition:color .17s}
+.post-nav li:hover a{color:#39b5e4}
+.post-nav li span{display:block;font-size:11px;color:#555;font-weight:700;padding:0 0 2px}
+.post-nav .post-prev span:before{content:&quot;\f053&quot;;float:left;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-size:9px;font-weight:400;text-transform:none;margin:0 2px 0 0}
+.post-nav .post-next span:after{content:&quot;\f054&quot;;float:right;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-size:9px;font-weight:400;text-transform:none;margin:0 0 0 2px}
+.post-nav p{font-size:12px;font-weight:400;line-height:1.4em;margin:0}
+.post-nav .post-nav-active p{color:#555}
+.about-author{position:relative;display:block;overflow:hidden;padding:20px;margin:0 0 30px;border:1px solid #eaeaea}
+.about-author .avatar-container{position:relative;float:left;width:80px;height:80px;overflow:hidden;margin:0 15px 0 0;border-radius:100%}
+.about-author .author-avatar{float:left;width:100%;height:100%;border-radius:100%}
+.author-name{overflow:hidden;display:inline-block;font-size:16px;font-weight:700;margin:7px 0 3px}
+.author-name span{color:#111}
+.author-name a{color:#111;transition:color .17s}
+.author-name a:hover{color:#f24a4a}
+.author-description{display:block;overflow:hidden;font-size:13px;font-weight:400;line-height:1.5em}
+.author-description a:hover{text-decoration:underline}
+#related-wrap{overflow:hidden;margin:auto 0}
+#related-wrap .related-tag{display:none}
+.related-ready{float:left;width:100%}
+.related-ready .loader{height:178px}
+ul.related-posts{position:relative;overflow:hidden;margin:0 -10px;padding:0}
+.related-posts .related-item{width:33.33333333%;position:relative;overflow:hidden;float:left;display:block;box-sizing:border-box;padding:0 10px;margin:0}
+.related-posts .post-image-link{width:100%;height:392px;position:relative;overflow:hidden;display:block}
+.related-posts .related-item .post-meta{padding:0;border:0}
+.related-posts .post-title{font-size:14px;font-weight:700;text-align:center;line-height:1.5em;display:block;margin:7px 0 6px}
+.related-posts .post-title a{color:#111;transition:color .17s}
+.related-posts .post-title a:hover{color:#39b5e4}
+#blog-pager{overflow:hidden;clear:both;margin:0 0 30px}
+.blog-pager a,.blog-pager span{float:left;display:block;min-width:30px;height:30px;background-color:#111;color:#fff;font-size:13px;font-weight:700;line-height:30px;text-align:center;box-sizing:border-box;margin:0 8px 0 0;transition:all .17s ease}
+#comments .comment-thread .thread-count,.archive #blog-pager,.comments .continue{display:none}
+.blog-pager .blog-pager-newer-link,.blog-pager .blog-pager-older-link{padding:0 15px}
+.blog-pager .blog-pager-newer-link{float:left}
+.blog-pager .blog-pager-older-link{float:right}
+.blog-pager span.page-dots{min-width:20px;background-color:transparent;font-size:16px;color:#111;line-height:30px;font-weight:400;letter-spacing:-1px;border:0}
+.blog-pager .page-of{display:none;width:auto;float:right;border-color:transparent;margin:0}
+.blog-pager .page-active,.blog-pager a:hover{background-color:#f24a4a;color:#fff}
+.blog-pager .page-next:before,.blog-pager .page-prev:before{font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-size:16px;font-weight:400}
+.blog-pager .page-prev:before{content:&#39;\f104&#39;}
+.blog-pager .page-next:before{content:&#39;\f105&#39;}
+.blog-pager .blog-pager-newer-link:after{content:&#39;\f104&#39;;float:left;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-weight:400;margin:0 3px 0 0}
+.blog-pager .blog-pager-older-link:after{content:&#39;\f105&#39;;float:right;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-weight:400;margin:0 0 0 3px}
+.blog-post-comments{margin:15px 0 30px;background:#fff;box-sizing:border-box;padding:20px;box-shadow:0 2px 3px rgba(0,0,0,.06),0 2px 3px rgba(0,0,0,.1)}
+.blog-post-comments .comments-title{margin:0 0 20px}
+#comment-editor{min-height:100px}
+#comments{margin-top:0;padding:0;font-size:16px}
+#comments .comment-thread ol{margin:0;padding-left:0}
+#comments .comment .comment-replybox-single,#comments .comment-thread .comment-replies{margin-left:60px}
+#comments .comment-thread .comment-replies{margin-top:20px}
+#comments .comment{margin-top:0;list-style-type:none;padding:0 0 25px;position:relative}
+#comments .comment .comment{padding-bottom:8px}
+.comment .avatar-image-container{position:absolute}
+.comment .avatar-image-container img{-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;height:35px;width:35px}
+.comments .comments-content .icon.blog-author:before{font-weight:900;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;content:&quot;\f00c&quot;;background:#2196f3;display:inline-block;color:#fff;position:relative;top:3px;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;margin-left:5px;font-size:8px;line-height:13px;overflow:hidden;text-align:center;padding:2px 4px 1px}
+.comment .comment-block{margin-top:10px;padding-bottom:0;margin-left:50px}
+#comments .comment .thread-expanded .comment-block{padding-bottom:0}
+#comments .comment .comment-header .user,#comments .comment .comment-header .user a{color:#212121;font-style:normal;font-weight:700;font-size:15px;text-transform:none}
+#comments .comment .comment-actions{background:0 0;border:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;cursor:pointer;font-size:12px;font-weight:700;outline:0;text-decoration:none;text-transform:uppercase;width:auto;bottom:-10px;margin-bottom:15px;position:absolute}
+#comments .comment .comment-actions a{color:#555;font-weight:700}
+#comments .comment .comment-actions a:hover{color:#2196f3}
+#comments .comment .comment-actions&gt;*{margin-right:8px}
+#comments .comment .comment-header .datetime{bottom:0;color:rgba(33,33,33,.54);display:inline-block;font-size:.89em;margin-left:5px}
+#comments .comment .comment-header .datetime a{color:#333;font-weight:700}
+#comments .comment .comment-content{margin-top:7px;margin-bottom:7px;line-height:1.6;word-break:break-word}
+.comments .comments-content .loadmore.loaded{display:none}
+
+.post-body h1,.post-body h2,.post-body h3,.post-body h4,.post-body h5,.post-body h6{margin:0 0 15px}
+.post-body h1,.post-body h2{font-size:24px}
+.post-body h3{font-size:21px}
+.post-body h4{font-size:18px}
+.post-body h5{font-size:16px}
+.post-body h6{font-size:13px}
+blockquote{font-style:italic;padding:10px;margin:0;border-left:4px solid #f24a4a}
+blockquote:after,blockquote:before{display:inline-block;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-style:normal;font-weight:400;color:#555;line-height:1}
+blockquote:before{content:&#39;\f10d&#39;;margin:0 10px 0 0}
+blockquote:after{content:&#39;\f10e&#39;;margin:0 0 0 10px}
+#ArchiveList .flat li&gt;a:before,.list-label li a:before,.post-body ul li:before{content:&quot;\f105&quot;}
+.widget .post-body ol,.widget .post-body ul{font-weight:400}
+.widget .post-body li{margin:5px 0;padding:0;line-height:1.5}
+.post-body ul{padding:0 0 0 20px}
+.post-body ul li:before{font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-size:13px;font-weight:400;margin:0 5px 0 0}
+.post-body u{text-decoration:underline}
+.post-body strike{text-decoration:line-through}
+.contact-form{overflow:hidden}
+.contact-form .widget-title{display:none}
+.contact-form .contact-form-name{width:calc(50% - 5px)}
+.contact-form .contact-form-email{width:calc(50% - 5px);float:right}
+.sidebar .widget{position:relative;overflow:hidden;background:#fff;box-shadow:0 2px 3px rgba(0,0,0,.06),0 2px 3px rgba(0,0,0,.1);box-sizing:border-box;padding:0;margin:0 0 30px}
+.sidebar .widget-title{position:relative;float:left;width:100%;padding:15px 20px;border-bottom:1px solid rgba(0,0,0,.08);box-sizing:border-box;display:block;border-top:3px solid #f24a4a}
+.sidebar .widget-title&gt;h3{position:relative;float:left;color:#111;font-size:16px;margin:0}
+.sidebar .widget-content{float:left;width:100%;margin:0;padding:20px;box-sizing:border-box}
+.social-counter li{float:left;width:calc(50% - 5px);margin:10px 0 0}
+.social-counter li:nth-child(1),.social-counter li:nth-child(2){margin-top:0}
+.social-counter li:nth-child(even){float:right}
+.social-counter li a{display:block;height:34px;font-size:13px;color:#fff;line-height:34px;transition:opacity .17s}
+.list-label li a,.list-label li a:before{color:#111;transition:color .17s;font-weight:400}
+.social-counter li a:before{float:left;width:34px;height:34px;background-color:rgba(255,255,255,.1);font-size:16px;text-align:center;margin:0 10px 0 0}
+.list-label li{position:relative;display:block;padding:8px 0;border-top:1px dotted #eaeaea}
+.list-label li:first-child{padding:0 0 8px;border-top:0}
+.list-label li:last-child{padding-bottom:0;border-bottom:0}
+.list-label li a{display:block;font-size:13px}
+.list-label li a:before{float:left;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;margin:2px 3px 0 0}
+.list-label li a:hover{color:#39b5e4}
+.list-label .label-count{position:relative;float:right;width:16px;height:16px;background-color:#f24a4a;color:#fff;font-size:11px;font-weight:400;text-align:center;line-height:16px}
+.cloud-label li{position:relative;float:left;margin:0 5px 5px 0}
+.cloud-label li a{display:block;height:26px;background-color:#f2f2f2;color:#111;font-size:12px;line-height:26px;font-weight:400;padding:0 10px;transition:all .17s ease}
+.cloud-label li a:hover{color:#fff;background-color:#f24a4a}
+.cloud-label .label-count{display:none}
+.sidebar .FollowByEmail&gt;.widget-title&gt;h3{margin:0}
+.FollowByEmail .widget-content{position:relative;overflow:hidden;font-weight:400;text-align:center;box-sizing:border-box;padding:20px;border:1px solid #eaeaea}
+.FollowByEmail .widget-content&gt;h3{font-size:18px;color:#111;font-weight:700;margin:0 0 13px}
+.FollowByEmail .before-text{font-size:13px;color:#888;line-height:1.4em;margin:0 0 15px;display:block;padding:0 15px;overflow:hidden}
+.FollowByEmail .follow-by-email-inner{position:relative}
+.FollowByEmail .follow-by-email-inner .follow-by-email-address{width:100%;height:34px;color:#888;font-size:11px;font-family:inherit;text-align:center;padding:0 10px;margin:0 0 10px;box-sizing:border-box;border:1px solid #eaeaea;transition:ease .17s}
+.FollowByEmail .follow-by-email-inner .follow-by-email-address:focus{border-color:rgba(0,0,0,.1)}
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit{width:100%;height:34px;font-family:inherit;font-size:11px;color:#fff;background-color:#f24a4a;text-transform:uppercase;text-align:center;font-weight:700;cursor:pointer;margin:0;border:0;transition:background .17s}
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit:hover{background-color:#111}
+#ArchiveList ul.flat li{color:#111;font-size:13px;font-weight:400;padding:8px 0;border-bottom:1px dotted #eaeaea}
+#ArchiveList ul.flat li:first-child{padding-top:0}
+#ArchiveList ul.flat li:last-child{padding-bottom:0;border-bottom:0}
+.contact-form-email,.contact-form-email-message,.contact-form-name{padding:5px 10px;border:1px solid #eaeaea;font-family:inherit;margin:0 0 10px}
+#ArchiveList .flat li&gt;a{display:block;color:#111;transition:color .17s}
+#ArchiveList .flat li&gt;a:hover{color:#39b5e4}
+#ArchiveList .flat li&gt;a:before{float:left;color:#111;font-weight:400;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;margin:2px 3px 0 0;display:inline-block;transition:color .17s}
+#ArchiveList .flat li&gt;a&gt;span{position:relative;float:right;width:16px;height:16px;background-color:#f24a4a;color:#fff;font-size:11px;font-weight:400;text-align:center;line-height:16px}
+.PopularPosts .post{overflow:hidden;margin:20px 0 0}
+.PopularPosts .post:first-child{margin:0}
+.PopularPosts .post-image-link{position:relative;width:80px;height:119px;float:left;overflow:hidden;display:block;vertical-align:middle;margin:0 12px 0 0}
+.PopularPosts .post-info{overflow:hidden}
+.PopularPosts .post-title{font-size:13px;font-weight:700;line-height:1.5em;margin:0 0 5px}
+.PopularPosts .post-title a{display:block;color:#111;transition:color .17s}
+.PopularPosts .post-title a:hover{color:#39b5e4}
+.PopularPosts .post-meta{font-size:11px}
+.PopularPosts .post-date:before{font-size:10px}
+.FeaturedPost .post-image-link{display:block;position:relative;overflow:hidden;width:100%;height:180px;margin:0 0 13px}
+.FeaturedPost .post-title{font-size:18px;overflow:hidden;font-weight:700;line-height:1.5em;margin:0 0 10px}
+.contact-form-button-submit,.contact-form-email,.contact-form-name{float:left;width:100%;height:30px;font-size:13px;line-height:30px;box-sizing:border-box}
+.FeaturedPost .post-title a{color:#111;display:block;transition:color .17s ease}
+.FeaturedPost .post-title a:hover{color:#39b5e4}
+.BlogSearch .search-action,.contact-form-button-submit{color:#fff;transition:background .17s ease;cursor:pointer}
+.Text{font-size:13px}
+.contact-form-widget form{font-weight:400}
+.contact-form-email-message{float:left;width:100%;font-size:13px;box-sizing:border-box}
+.contact-form-button-submit{background-color:#f24a4a;padding:0 10px;margin:0;border:0}
+.contact-form-error-message-with-border,.contact-form-success-message-with-border{width:100%;font-size:11px;line-height:11px;padding:3px 0;margin:10px 0;float:left;text-align:center}
+.contact-form-button-submit:hover{background-color:#111}
+.contact-form-error-message-with-border{background-color:#fbe5e5;box-sizing:border-box;border:1px solid #fc6262}
+.contact-form-success-message-with-border{background-color:#eaf6ff;box-sizing:border-box;border:1px solid #5ab6f9}
+.BlogSearch .search-action,.BlogSearch .search-input{height:30px;font-size:13px;line-height:30px;box-sizing:border-box}
+.contact-form-cross{margin:0 0 0 3px}
+.contact-form-error-message,.contact-form-success-message{margin:0}
+.BlogSearch .search-input{float:left;width:75%;background-color:#fff;font-weight:400;padding:5px 10px;border:1px solid #eaeaea;border-right-width:0}
+.BlogSearch .search-action{float:right;width:25%;font-family:inherit;background-color:#f24a4a;padding:0 5px;border:0}
+#footer-wrapper,.BlogSearch .search-action:hover{background-color:#111}
+.Profile .profile-img{float:left;width:80px;height:80px;margin:0 15px 0 0;transition:all .17s ease}
+.Profile .profile-datablock{margin:0}
+.Profile .profile-data .g-profile{display:block;font-size:14px;color:#111;margin:0 0 5px;transition:color .17s ease}
+.Profile .profile-data .g-profile:hover{color:#39b5e4}
+.Profile .profile-info&gt;.profile-link{color:#111;font-size:11px;margin:5px 0 0;transition:color .17s ease}
+.Profile .profile-info&gt;.profile-link:hover{color:#39b5e4}
+.Profile .profile-datablock .profile-textblock{display:none}
+.common-widget .LinkList ul li,.common-widget .PageList ul li{width:calc(50% - 5px);padding:7px 0 0}
+.common-widget .LinkList ul li:nth-child(odd),.common-widget .PageList ul li:nth-child(odd){float:left}
+.common-widget .LinkList ul li:nth-child(even),.common-widget .PageList ul li:nth-child(even){float:right}
+.common-widget .LinkList ul li a,.common-widget .PageList ul li a{display:block;color:#111;font-size:13px;font-weight:400;transition:color .17s ease}
+.common-widget .LinkList ul li a:hover,.common-widget .PageList ul li a:hover{color:#39b5e4}
+.common-widget .LinkList ul li:first-child,.common-widget .LinkList ul li:nth-child(2),.common-widget .PageList ul li:first-child,.common-widget .PageList ul li:nth-child(2){padding:0}
+#footer-wrapper .container{position:relative;overflow:hidden;margin:0 auto;padding:25px 0}
+.footer-widgets-wrap{position:relative;display:flex;margin:0 -15px}
+#footer-wrapper .footer{display:inline-block;float:left;width:33.33333333%;box-sizing:border-box;padding:0 15px}
+#footer-wrapper .footer .widget{float:left;width:100%;padding:0;margin:25px 0 0}
+#footer-wrapper .footer .Text{margin:10px 0 0}
+#footer-wrapper .footer .widget:first-child{margin:0}
+#footer-wrapper .footer .widget-content{float:left;width:100%}
+.footer .widget&gt;.widget-title{position:relative;float:left;width:100%;height:28px;display:block;margin:0 0 20px;border-bottom:2px solid rgba(255,255,255,.05)}
+.footer .BlogArchive #ArchiveList ul.flat li,.footer .FeaturedPost .post-meta,.footer .FollowByEmail .follow-by-email-inner .follow-by-email-address,.footer .FollowByEmail .widget-content,.footer .PopularPosts .post,.footer .custom-widget li,.footer .list-label li{border-color:rgba(255,255,255,.05)}
+.footer .widget&gt;.widget-title&gt;h3{position:relative;float:left;height:30px;font-size:16px;color:#fff;margin:0}
+.footer .widget&gt;.widget-title&gt;h3:after{content:&#39;&#39;;position:absolute;left:0;bottom:0;height:2px;width:100%;background-color:#f24a4a;margin:0}
+.footer .FollowByEmail .widget-content,.footer .post-image-link{background-color:rgba(255,255,255,.05)}
+.footer .FeaturedPost .post-title a,.footer .LinkList ul li a,.footer .PageList ul li a,.footer .PopularPosts .post-title a,.footer .Profile .profile-data .g-profile,.footer .Profile .profile-info&gt;.profile-link,.footer .custom-widget .post-title a{color:#fff}
+.footer .FeaturedPost .post-title a:hover,.footer .LinkList ul li a:hover,.footer .PageList ul li a:hover,.footer .PopularPosts .post-title a:hover,.footer .Profile .profile-data .g-profile:hover,.footer .Profile .profile-info&gt;.profile-link:hover,.footer .custom-widget .post-title a:hover{color:#39b5e4}
+.footer .FollowByEmail .widget-content&gt;h3,.footer .no-posts{color:#fff}
+#footer-wrapper .footer .Text,.footer .FollowByEmail .before-text{color:#555}
+.footer #ArchiveList .flat li&gt;a,.footer #ArchiveList .flat li&gt;a:before,.footer .list-label li a,.footer .list-label li a:before{color:#fff}
+.footer .FollowByEmail .follow-by-email-inner .follow-by-email-submit:hover{background:#111}
+.footer .FollowByEmail .follow-by-email-inner .follow-by-email-address{background-color:rgba(255,255,255,.05);color:#fff}
+.footer .list-label li:first-child{padding-top:0}
+.footer #ArchiveList .flat li&gt;a:hover,.footer .list-label li&gt;a:hover{color:#39b5e4}
+.footer #ArchiveList .flat li&gt;a&gt;span,.footer .cloud-label li a,.footer .list-label .label-count{background-color:rgba(255,255,255,.05);color:#fff}
+.footer .cloud-label li a:hover{background-color:#f24a4a;color:#fff}
+.footer .BlogSearch .search-input,.footer .contact-form-email,.footer .contact-form-email-message,.footer .contact-form-name{background-color:rgba(255,255,255,.05);color:#fff;border-color:rgba(255,255,255,.05)}
+.footer .BlogSearch .search-action:hover,.footer .FollowByEmail .follow-by-email-inner .follow-by-email-submit:hover,.footer .contact-form-button-submit:hover{background-color:rgba(0,0,0,.3)}
+#sub-footer-wrapper{display:block;width:100%;overflow:hidden;color:#fff;padding:0}
+#sub-footer-wrapper .container{overflow:hidden;margin:0 auto;padding:10px 0}
+#menu-footer{float:right;position:relative;display:block}
+#menu-footer .widget&gt;.widget-title{display:none}
+#menu-footer ul li{float:left;display:inline-block;height:34px;padding:0;margin:0}
+#menu-footer ul li a{font-size:12px;font-weight:400;display:block;color:#fff;line-height:34px;padding:0 5px;margin:0 0 0 10px;transition:color .17s ease}
+.back-top,.error404 #sidebar-wrapper{display:none}
+#menu-footer ul li:last-child a{padding:0 0 0 5px}
+#menu-footer ul li a:hover{color:#39b5e4}
+#sub-footer-wrapper .copyright-area{font-size:12px;float:left;height:34px;line-height:34px;font-weight:400}
+#sub-footer-wrapper .copyright-area a{color:#fff;transition:color .17s}
+#sub-footer-wrapper .copyright-area a:hover{color:#39b5e4}
+.hidden-widgets{display:none;visibility:hidden}
+.back-top{z-index:1010;width:34px;height:32px;position:fixed;bottom:25px;right:25px;cursor:pointer;overflow:hidden;font-size:20px;color:#fff;text-align:center;line-height:30px}
+.back-top:before{content:&#39;&#39;;position:absolute;top:0;left:0;right:0;bottom:0;background-color:#f24a4a;opacity:.5;transition:opacity .17s ease}
+.back-top:after{content:&#39;\f106&#39;;position:relative;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-weight:400;opacity:.8;transition:opacity .17s ease}
+.back-top:hover:after,.back-top:hover:before,.nav-active .back-top:after,.nav-active .back-top:before{opacity:1}
+.error404 #main-wrapper{width:100%!important;margin:0!important}
+.errorWrap{color:#111;text-align:center;padding:80px 0 100px}
+.errorWrap h3{font-size:160px;line-height:1;margin:0 0 30px}
+.errorWrap h4{font-size:25px;margin:0 0 20px}
+.errorWrap p{margin:0 0 10px}
+.errorWrap a{display:block;color:#f24a4a;padding:10px 0 0}
+.errorWrap a i{font-size:20px}
+.errorWrap a:hover{text-decoration:underline}
+#footer-wrapper .post-meta .post-date{color:#fff}
+.post-body code,.post-body pre{font-family:inherit;letter-spacing:.02rem;display:block}
+.post-body pre{white-space:pre;position:relative;font-size:15px;color:#111;padding-right:15px;margin:15px 0}
+.post-body code{max-height:400px;text-align:left;overflow:auto;border:0;line-height:21px;font-size:14px;background:#1f1f1f;color:#fff;padding:1em 1.2em;border-radius:4px;margin:.5em 0}
+.widget .post-body ol,.widget .post-body ul{margin:5px 0;padding:0 1em 0 2em;line-height:1.5}
+.widget .post-body ul{list-style-type:disc}
+.post-body{letter-spacing:.015rem;color:#333}
+.separator,.separator a{margin:0!important}
+.post-body table{font-size:15px;max-width:100%;width:100%;border-spacing:0}
+.post-body table caption,.post-body table td{border:1px solid #ddd;padding:5px 10px;text-align:left;vertical-align:top}
+.post-body table th{border:1px solid #ddd;padding:10px;text-align:left;vertical-align:top}
+.post-body td,.post-body th{vertical-align:top;text-align:left;padding:3px 5px}
+.post-body table tr:nth-child(even)&gt;td{background-color:#f9f9f9}
+.post-body table tr:nth-child(even)&gt;td:hover{background-color:#fbfbfb}
+.post-body th{background:#fff}
+.post-body th:hover{background:#fdfdfd}
+.res-table{overflow-x:auto}
+table{border-spacing:0}
+.post-body h1,.post-body h2,.post-body h3,.post-body h4,.post-body h5,.post-body h6{margin-bottom:10px;color:#222}
+.PopularPosts img:hover,.post-body img:hover{cursor:pointer;-webkit-filter:grayscale(1);filter:grayscale(1);transition:all .3s ease-in-out}
+.post-body img{border-radius:4px;-webkit-box-shadow:-6px 6px 77px -17px rgba(199,199,199,1);-moz-box-shadow:-6px 6px 77px -17px rgba(199,199,199,1);box-shadow:-6px 6px 77px -17px rgba(199,199,199,1)}
+.FollowByEmail{clear:both}
+.widget .post-body ol{list-style-type:decimal;padding:0 0 0 15px}
+.rc-content{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;margin:0 0 1.5em}
+.rc-img{max-width:80px;margin:0 .5em 0 0;flex-shrink:0}
+.rc-img img{height:40px;width:40px;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%}
+.rc-user a{color:#000;font-weight:700;text-decoration:none}
+.rc-summary,.rc-user{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex}
+.author-box{margin:1em 0}
+.author-image{float:left}
+.author-image img{margin:0 20px 0 0;border-radius:100%}
+.author-wrap::after{content:&quot;&quot;;display:table;clear:both}
+.author-title{margin:0 0 10px}
+.author-title a{color:#333;font-weight:700;font-size:17px}
+.comments h3.title{clear:both;font-size:15px;color:#666;}
+
+/*-- Nav Item CSS --*/
+.post-nav2{text-align:right}
+.post-nav2 .post-nav2-btn{position:relative;display:inline-block;background:#fff;color:#222;margin:0 5px;padding:14px 16px;font-size:1rem;border-radius:100%;box-shadow:0 2px 3px rgba(0,0,0,.06),0 2px 3px rgba(0,0,0,.1)}
+.post-nav2 .newer-link-nav.post-nav2-btn i{position:relative;top:1px;left:2px}
+.post-nav2 .older-link-nav.post-nav2-btn i{position:relative;top:1px;left:-2px}
+.post-nav2 .newer-link-nav.post-nav2-btn,.post-nav2 .older-link-nav.post-nav2-btn{padding:14px 21px;font-size:1.2rem}
+.post-nav2 .post-nav2-btn:hover{background:#fff;color:#222;box-shadow:0 10px 21px rgba(0,0,0,.15),0 6px 6px rgba(0,0,0,.12)} 
+
+/*-- Button Demo Download CSS --*/
+a.demo2 {background-color:#EB4026;}
+a.download2 {background-color:#CA212A;animation:download2 3s infinite linear;position:relative;}
+@keyframes download2 {0%{top:0em}40%{top:0em}43%{top:-0.9em}46%{top:0em}48%{top:-0.4em}50%{top:0em}100%{top:0em;}}
+a.demo2, a.download2{display:inline-block;padding:10px 20px;border:2px solid #eee;margin:0 5px 5px 0;border-radius:3px;box-sizing: border-box;text-decoration:none;font-family:&#39;Roboto&#39;,sans-serif;font-size: 14px;font-weight:400;color:#FFFFFF;text-align:center;transition: all 0.2s;}
+a.demo2:hover, a.download2:hover{color:#000000;background-color:#ffa5fa;}
+a.demo2:before {content:&#39;\f135&#39;;display:inline-block;font-weight:normal;margin-right:10px;width:16px;height:16px;line-height:24px;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;transition:all 0.5s ease-out;}
+a.download2:before {content:&#39;\f019&#39;;display:inline-block;font-weight:normal;margin-right:10px;width:16px;height:16px;line-height:24px;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;transition:all 0.5s ease-out;}
+
+/*-- Abcshare Button Plugin CSS --*/
+.abctext {float: left;text-align:center; font-size:16px; font-weight:600;margin: 5px;}
+.abcshare {width: 75px;height: 390px;float: left;background: #efefefd6;position: fixed;left: 10.2%;border: #c7c7c74d solid 2px;border-radius: 8px;top:240px}
+.abcshare-s {width: 80px;height: 500px;margin: auto;padding-bottom: 0px;clear: both;position: fixed;left: 10%;top:250px}
+.abcshare-spro {float: left;}
+.abcshare-sv {display: inline-block;background-color: #fff;width: 60px;height: 60px;cursor: pointer;line-height: 60px;margin: 0 10px;text-align: center;position: relative;overflow: hidden;opacity: .99;border-radius: 28%;box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);-webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);}
+.abcshare-sv:focus:before, .abcshare-sv:hover:before {top: -10%;left: -10%;}
+.abcshare-sv:before {content:&#39;&#39;;background-color: #000;width: 120%;height: 120%;position: absolute;top:90%;left:-110%;-webkit-transform: rotate(45deg);transform: rotate(45deg);-webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);}
+.abcshare-sv .fab {font-size: 38px;vertical-align: middle;-webkit-transform: scale(0.8);transform: scale(0.8);-webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);}
+.abcshare-sv:focus .fab, .abcshare-sv:hover .fab {color: #fff;-webkit-transform: scale(1);transform: scale(1);}
+.abcshare-sv.facebook-vip .fab {color: #3B5998;}
+.abcshare-sv.twitter-vip .fab {color: #3CF;}
+.abcshare-sv.google-vip .fab {color: #DC4A38;}
+.abcshare-sv.tumblr-vip .fab {color: #35455c;}
+.abcshare-sv.linkedin-vip .fab {color: #15ace5;}
+.abcshare-sv:focus .fab, .abcshare-sv:hover .fab {color: #fff;-webkit-transform: scale(1);transform: scale(1);}
+.abcshare-sv.facebook-vip:before {background-color: #3B5998;}
+.abcshare-sv.twitter-vip:before {background-color: #3CF;}
+.abcshare-sv.google-vip:before {background-color: #DC4A38;}
+.abcshare-sv.tumblr-vip:before {background-color: #35455c;}
+.abcshare-sv.linkedin-vip:before {background-color: #15ace5;}
+
+/*-- Click Views Zoom Photo CSS --*/
+.viewheader{background-color:#f5f5f5;border:1px solid #e0e0e0;border-bottom:0;text-align:center;padding:6px 0}
+.view-text{background-color: #fd020280;font-size:14px;font-weight:700;cursor:pointer;color:#707070;padding:7px 10px;border-left:1px solid #e0e0e0;border-right:1px solid #e0e0e0}
+.view-text:before{font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;content:&quot;\f00e&quot;;display:inline-block;margin-right:7px}
+.view-text:hover{color:#707070;background:#ccc}
+pre view{display:block;background:#f9f9f9;max-height:400px;font-size:14px;color:black;text-align:center;overflow:auto;border:1px solid #d3d6db;margin:auto;padding:16px;line-height:21px}
+.tooltip{position:absolute;z-index:1030;display:block;font-size:12px;line-height:1.4;opacity:0;filter:alpha(opacity=0);visibility:visible}
+.tooltip.in{opacity:.9;filter:alpha(opacity=90)}
+.tooltip.top{padding:5px 0;margin-top:-3px}
+.tooltip.right{padding:0 5px;margin-left:3px}
+.tooltip.bottom{padding:5px 0;margin-top:3px}
+.tooltip.left{padding:0 5px;margin-left:-3px}
+.tooltip-inner{max-width:200px;padding:3px 8px;color:#fff;text-align:center;text-decoration:none;background-color:#000;border-radius:4px}
+.tooltip-arrow{position:absolute;width:0;height:0;border-color:transparent;border-style:solid}
+.tooltip.top .tooltip-arrow{bottom:0;left:50%;margin-left:-5px;border-top-color:#000;border-width:5px 5px 0}
+.tooltip.top-left .tooltip-arrow{bottom:0;left:5px;border-top-color:#000;border-width:5px 5px 0}
+.tooltip.top-right .tooltip-arrow{right:5px;bottom:0;border-top-color:#000;border-width:5px 5px 0}
+.tooltip.right .tooltip-arrow{top:50%;left:0;margin-top:-5px;border-right-color:#000;border-width:5px 5px 5px 0}
+.tooltip.left .tooltip-arrow{top:50%;right:0;margin-top:-5px;border-left-color:#000;border-width:5px 0 5px 5px}
+.tooltip.bottom .tooltip-arrow{top:0;left:50%;margin-left:-5px;border-bottom-color:#000;border-width:0 5px 5px}
+.tooltip.bottom-left .tooltip-arrow{top:0;left:5px;border-bottom-color:#000;border-width:0 5px 5px}
+.tooltip.bottom-right .tooltip-arrow{top:0;right:5px;border-bottom-color:#000;border-width:0 5px 5px}
+
+/*-- Button Notice CSS --*/
+.notes-gr{font-size: 15px;font-style: italic;background:linear-gradient(#EE4FC9,#EE4747,#EE4F8C);position:relative;padding:45px 15px 15px 15px;color:#fff;border-radius:3px}
+.notes-gr:before{position:absolute;content:&#39;Notes:&#39;;background:rgba(0,0,0,0.1);right:3px;left:3px;top:3px;padding:5px 20px;display:block;font-weight:700;border-radius:3px 3px 0 0;color:rgba(255,255,255,0.8)}
+.notes-gr:after{position:absolute;content:&#39;\f027&#39;;right:10px;bottom:5px;font-family:&quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 5 Brands&quot;;font-style:normal;font-weight:normal;font-size:160%;color:rgba(255,255,255,.6)}
+.notes-gr a,blockquote a:hover {color:#fff;}
+.notes-gr a,.chusys a:visited,.chusys a:link,.chusys a:link:hover{color:#fff}
+
+/* Adblock Killer CSS */
+/* --- */ /* Animation */ 
+@keyframes fadeInDown{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}
+@keyframes rubberBand{from{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,0.75,1)}40%{transform:scale3d(0.75,1.25,1)}50%{transform:scale3d(1.15,0.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}to{transform:scale3d(1,1,1)}}
+/* --- */ /* Say Hi to Adblock */
+#arlinablock{background:rgba(0,0,0,0.65);position:fixed;margin:auto;left:0;right:0;top:0;bottom:0;overflow:auto;z-index:999999;animation:fadeInDown 1s}
+#arlinablock .header{margin:0 0 15px 0}
+#arlinablock .inner{background:#e3482d;color:#fff;box-shadow:0 5px 20px rgba(0,0,0,0.1);text-align:center;width:600px;padding:40px;border-radius:5px;margin:7% auto 2% auto;animation:rubberBand 1s}
+#arlinablock button{padding:10px 20px;border:0;background:rgba(0,0,0,0.15);color:#fff;margin:20px 5px;cursor:pointer;transition:all .3s}
+#arlinablock button:hover{background:rgba(0,0,0,0.35);color:#fff;outline:none}
+#arlinablock button.active,#arlinablock button:hover.active{background:#fff;color:#222;outline:none}
+#arlinablock .fixblock{background:#fff;text-align:left;color:#000;padding:20px;height:250px;overflow:auto;line-height:30px}
+#arlinablock .fixblock div{display:none}
+#arlinablock .fixblock div.active{display:block}
+#arlinablock ol{margin-left:20px}
+
+sticknav{height:30px;width:100%;margin-right:0;margin-left:0;left:0;right:0;position:relative;z-index:9999}.fixed{position:fixed}
+
+/* Auto Load More Posts CSS */
+.ajax-more{clear:both}
+.spinner{border:6px solid #f3f3f3;border-radius:50%;border-top:6px solid #3d4042;width:25px;height:25px;-webkit-animation:spin 1s infinite;animation:spin 1s infinite}
+@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg)}}
+@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+
+/*-- Load Cmt Disqus CSS --*/
+.post-comment-link{visibility:hidden}#disqus_thread{background:#fff;margin:10px 0 0 0;padding:0}#disquscmts{position:relative;overflow:hidden;display:table;font-weight:500;font-size:16px;cursor:pointer;letter-spacing:0;margin:30px auto 20px auto;padding:10px 20px;text-align:center;background:#f39c12;border-radius:3px;color:#fff;transition:all .3s}#disquscmts:hover,#disquscmts:active{background:#e67e22;color:#fff}
+
+.post-snippet, .post-meta, .post-tag {display:none;}
+
+*/@media  (max-width:1785px){ .abcshare , .abcshare-s {display:none}}
+@media  (max-width:1300px){#outer-wrapper{max-width:100%}.row{width:100%}#hot-wrapper,#top-bar .container,.header-header .container,.header-menu .container{box-sizing:border-box;padding:0 20px}#header-wrap{height:auto}.header-logo{max-width:30%}.header-ads{max-width:70%}.hide-search,.show-search{right:20px}#nav-search .search-input{padding:0 46px 0 20px}#content-wrapper{position:relative;box-sizing:border-box;padding:0 20px;margin:30px 0 0}#footer-wrapper .container{box-sizing:border-box;padding:25px 20px}#sub-footer-wrapper .container{box-sizing:border-box;padding:10px 20px}}
+@media  (max-width:980px){#content-wrapper&gt;.container{margin:0}#top-bar,.header-logo,.header-menu{display:none}.mobile-header{display:block}#header-wrap{padding:0}.header-header{height:auto;padding:0}.header-header .container.row{width:100%}.header-ads{width:100%;max-width:100%;box-sizing:border-box;padding:0}.header-ads .widget .widget-content{position:relative;padding:20px 0;margin:0 auto}#header-inner a{display:inline-block!important}#main-wrapper,#sidebar-wrapper{width:100%;padding:0}}
+@media  (max-width:880px){.footer-widgets-wrap{display:block}#footer-wrapper .footer{width:100%;margin-right:0}#footer-sec2,#footer-sec3{margin-top:25px}}
+@media  (max-width:768px){#arlinablock .inner{width:calc(100% - 20px);margin:10px auto;padding:15px}}
+@media  (max-width:680px){#hot-section .hot-posts,#hot-section .show-hot .widget-content{height:auto}#hot-section .loader{height:200px}.hot-posts .hot-item{width:100%;height:180px;margin:2px 0 0}.hot-posts .item-0{margin:0}.feat-big .item-0,.feat-big li,.featured-posts&gt;.col-width,.grid-big li{width:100%}.feat-big .item-1{margin:20px 0 0}.grid-big li.item-big{margin:30px 0 0}.grid-big li.item-0{margin:0}.FeaturedPost .post-image-link,.feat-big .feat-inner .post-image-link,.feat-col .feat-inner .post-image-link,.feat-list .feat-inner .post-image-link,.grid-big .post-image-link,.index-post .post-image-wrap{width:100%;height:180px;margin:0 0 10px}.feat-big .item-big .post-info,.feat-list .post-info,.index-post .post-info{float:left;width:100%}.post-snippet{margin:8px 0 0}#menu-footer,#sub-footer-wrapper .copyright-area{width:100%;height:auto;line-height:inherit;text-align:center}#menu-footer{margin:10px 0 0}#sub-footer-wrapper .copyright-area{margin:10px 0}#menu-footer ul li{float:none;height:auto}#menu-footer ul li a{line-height:inherit;margin:0 3px 5px} a.demo2, a.download2{display:block;margin:6px auto;} .post-nav2{margin: 60px 60px 0 0} #PopularPosts2, #PopularPosts1, #HTML75, #HTML3, #HTML4 {display:none}}
+@media  (max-width:540px){.grid-small .post-tag,.related-posts .post-tag,.share-links li a span{display:none}.FeaturedPost .post-image-link,.feat-big .feat-inner .post-image-link,.feat-col .feat-inner .post-image-link,.feat-list .feat-inner .post-image-link,.grid-big .post-image-link,.hot-posts .hot-item,.index-post .post-image-wrap{height:auto}.share-links li.facebook,.share-links li.gplus,.share-links li.twitter{width:30px}ul.related-posts{margin:0}.feat-big .item-small,.grid-small li,.related-posts .related-item{width:100%;padding:0;margin:20px 0 0}.feat-big .item-0{margin:0}.feat-big .item-small .post-info,.grid-small .post-info{float:none;overflow:hidden}.grid-small li.item-1,.grid-small li.item-2,.grid-small li:nth-child(3n+1){margin:20px 0 0}.grid-small li.item-0,.related-posts .item-0{padding:0;margin:0;border:0}.related-posts .related-item:first-child{padding:0}.feat-big .item-small .post-image-link,.grid-small .post-image-link,.related-posts .post-image-link{width:80px;height:119px;float:left;margin:0 12px 0 0}.grid-small .post-title,.related-posts .post-title{font-size:13px;overflow:hidden;margin:0 0 5px}.inline-ad,.inline-ad&gt;ins{height:auto;min-height:1px;max-height:250px}.item-post h1.post-title{font-size:25px}}
+@media  (max-width:440px){.index-post,.index-post .post-info{clear:both;float:none}.about-author,.queryMessage{text-align:center}.index-post{width:100%}.index-post .post-image-wrap{float:none;clear:both;margin:0}.hot-posts .item-0 .post-title,.hot-posts .post-title{font-size:15px}.queryMessage a.show-more{width:100%;margin:10px 0 0}.item-post h1.post-title{font-size:21px}blockquote{padding:10px 15px}.about-author .avatar-container{float:none;display:table;margin:0 auto 10px}#comments ol{padding:0}.errorWrap{padding:70px 0 100px}.errorWrap h3{font-size:130px}}
+@media  (max-width:320px){.post-nav2{margin: 25px}}
