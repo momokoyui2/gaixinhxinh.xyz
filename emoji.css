@@ -1,0 +1,26 @@
+.emoji-cmts{display:inline-block;width:32px;height:32px;background-image:url("https://1.bp.blogspot.com/-lNh-3w9e2tc/XDS9CLCgwqI/AAAAAAAAID4/70u3JAD0NGQNeb21gh3v8-5ODYRU8_36gCLcBGAs/s1600/emoji_cmts.png");background-repeat:no-repeat;-webkit-background-size:32px 32px;-moz-background-size:32px;-o-background-size:32px;background-size:32px;-webkit-transform:scale(0.7);-moz-transform:scale(0.7);-ms-transform:scale(0.7);-o-transform:scale(0.7);transform:scale(0.7);position:relative}
+.list-emoji .item{width:40px;text-align:center;display:inline-block;margin:5px 15px 5px 0}
+.list-emoji .emoji-cmts{cursor:pointer;display:block;margin:0 0 5px}
+.list-emoji .short-code{font-size:13px;position:relative;right:2px}
+.comment-content .emoji-cmts{left:-5px;top:9px;-webkit-transform:scale(0.6);-moz-transform:scale(0.6);-ms-transform:scale(0.6);-o-transform:scale(0.6);transform:scale(0.6)}
+.icon-1{background-position:0 -576px}
+.icon-2{background-position:0 -224px}
+.icon-3{background-position:0 -192px}
+.icon-4{background-position:0 -544px}
+.icon-5{background-position:0 -96px}
+.icon-6{background-position:0 -512px}
+.icon-7{background-position:0 -320px}
+.icon-8{background-position:0 -288px}
+.icon-9{background-position:0 -416px}
+.icon-10{background-position:0 -608px}
+.icon-11{background-position:0 -480px}
+.icon-12{background-position:0 -352px}
+.icon-13{background-position:0 -64px}
+.icon-14{background-position:0 -160px}
+.icon-15{background-position:0 -128px}
+.icon-16{background-position:0 -384px}
+.icon-17{background-position:0 -256px}
+.icon-18{background-position:0 -448px}
+.icon-19{background-position:0 0px}
+.icon-20{background-position:0 -32px}
+.msg-alert{position:fixed;bottom:20px;left:20px;background:#333;z-index:1000;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:15px;padding:8px 12px;border-radius:4px}
