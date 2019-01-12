@@ -6,7 +6,7 @@ $(document).ready(function() {
     if (o) { // nếu còn bài đăng thì bắt đầu làm
 
         //tạo 1 div loading và chèn trước div phân trang mặc định
-        n = $('<div class="ajax-more" style="display:none"><center><div class="spinner"></div></center></div>').insertBefore($("#blog-pager"));
+        n = $('<div class="ajax-more" style="display:none"><center><div style="width:100%;height:100%" class="lds-heart"></div></center></div>').insertBefore($("#blog-pager"));
         $("#blog-pager").hide() // ẩn phân trang mặc định
 
         $(window).scroll(function() { // bắt sự kiện cuộn trang
