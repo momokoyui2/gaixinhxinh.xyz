@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Changa');
+@-webkit-keyframes Gradient {
+0% {
+background-position: 0% 50%
+}
+50% {
+background-position: 100% 50%
+}
+100% {
+background-position: 0% 50%
+}
+}
+@-moz-keyframes Gradient {
+0% {
+background-position: 0% 50%
+}
+50% {
+background-position: 100% 50%
+}
+100% {
+background-position: 0% 50%
+}
+}
+@keyframes Gradient {
+0% {
+background-position: 0% 50%
+}
+50% {
+background-position: 100% 50%
+}
+100% {
+background-position: 0% 50%
+}
+}
+.adblockInfo{width:100%;height:100%;position:fixed;top:0;left:0;z-index:999999;display:none}
+.adblockInfo.is-active{display:block}
+.adblockInfo__container{top: calc(50% - 40%); max-width: 350px; font-size: 16px; text-align: center; box-shadow: 0 6px 5px -5px rgba(0,0,0,.5); margin: 0 auto;font-family: 'Changa', cursive;}
+.adblockInfo__container,.adblockInfo__title{position:relative;z-index:99996}
+.adblockInfo__title{padding:1em 2em;font-size:1.2em;margin:0}
+.adblockInfo__text{padding: 1em; font-size: 1em; line-height: 2; text-align: center;}
+.adblockInfo__cover__img { width: 100px; max-width: 100px; max-height: 100px; -webkit-border-radius: 0%; -moz-border-radius: 0%; border-radius: 0%; border: 5px solid rgba(255,0,0,0); top: 65%; position: relative; z-index: 99998;}
+@media (max-width:500px){.adblockInfo__container{left:0;right:0;width:100%}}
+.adblockInfo {
+background: rgba(0, 0, 0, 0.95);
+}
+h3.adblockInfo__title { margin-top: 10px; }
+.adblockInfo__title,
+.adblockInfo__container {
+background: #fff;
+}
+.adblockInfo__cover { position: relative; background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB); background-size: 400% 400%; -webkit-animation: Gradient 15s ease infinite; -moz-animation: Gradient 15s ease infinite; animation: Gradient 15s ease infinite; height: 200px; }
+.adblockInfo__title {
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+color: rgba(0, 0, 0, 0.75);
+}
+.adblockInfo__text {
+color: #524e4e;
+}
+.bottom { line-height: 3em; }
+.ar1web-social {position: relative; margin: 0 auto; padding: 0 0 0 0;} .ar1web-social li { display: inline-block; margin:0; line-height: 16px; }.ar1web-social li a { color:#fff; position: relative; z-index: 99997; font-size: 19px; display: block ; text-align: center; } .twitter-icon:before { content:"\f099" } .gpluss-icon:before { content:"\f16d" } .facebook-icon:before { content:"\f09a" } .rss-icon:before { content:"\f09e" } .social-tooltip.tw, .social-tooltip.fb, .social-tooltip.yt, .social-tooltip.rs, .social-tooltip.wp, .social-tooltip.gp { color: #0099CC;padding: 4px 6px;}
+.social-tooltip.tw { color: #44C3F9;}
+.social-tooltip.wp { color: #5CCC19; }
+.social-tooltip.gp { color: #c93ce2; }
+.social-tooltip.fb { color: #086A8C; } .social-tooltip.yt{color: #FF2F37;} .ar1web-social .social-tooltip:hover:after{ top: -36px; background: none repeat scroll 0% 0% #FFF; font-size: 14px; color: #666; content: attr(title); display: block; right: 0px; padding: 5px 15px; position: absolute; white-space: nowrap; border-radius: 3px; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+.ar1web-social .social-tooltip:hover { color: #F8A01B;text-decoration: none; }
+}
